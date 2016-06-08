@@ -1,0 +1,22 @@
+[
+    {
+        "username": "testusername",
+        "password": "test",
+        "email": "test@gmail.com",
+        "profile": {
+            "firstName": "TestMan",
+            "lastName": "NotTestMan",
+            "avatar": "http://cloud.com/mynakedtorsoinbathroom.jpg"
+        }
+    },
+    {
+        "username": "verycoolusername",
+        "password": "verycoolpasswordwhichimpossibletocrack",
+        "email": "test@mymail.com",
+        "profile": {
+            "firstName": "TestMadam",
+            "lastName": "NotTestMadam",
+            "avatar": "http://cloud.com/myselfiewhereimwithducklips.jpg"
+        }
+    }
+]

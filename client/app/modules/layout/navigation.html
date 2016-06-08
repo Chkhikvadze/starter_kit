@@ -1,0 +1,14 @@
+﻿<div class="menu_background" ng-controller="NavigationController as vm">
+	<div class="container">
+		<nav class="collapse navbar-collapse nav-padding">
+			<ul class="nav navbar-nav navbar-left menu_style remove-margin">
+				<li ng-class="vm.isCurrent(r)" ng-repeat="r in vm.navRoutes">
+					<a ui-sref="{{r.name}}" data-toggle="search">
+						<img ng-src="{{r.settings.icon}}" alt="" class="img-responsive">
+						<span>{{r.settings.title}}</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</div>

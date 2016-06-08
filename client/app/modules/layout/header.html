@@ -1,0 +1,47 @@
+<!-- Header starts -->
+<div class="header-wrapper" ng-controller="HeaderController as vm">
+
+	<!-- topbar starts -->
+	<div class="navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<button aria-expanded="false" aria-controls="navbar-collapse" data-target=".navbar-collapse" data-toggle="collapse" type="button"
+				class="navbar-toggle collapsed">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand logo" ui-sref="/">
+					<img class="img-responsive" src="images/vobi_logo.png" alt="logo" />
+				</a>
+			</div>
+			<ul class="nav nav-new navbar-nav  toggle-margin navbar-right icons_nav_right nav-back">
+				<li class="dropdown dropdown-user">
+					<a data-close-others="true" data-hover="dropdown" data-toggle="dropdown" class="dropdown-toggle" href="javascript:;" aria-expanded="false">
+						<div class="user-text">
+							<h1>{{ vm.user.profile.firstName ? (vm.user.profile.firstName + ' ' + vm.user.profile.lastName) : vm.user.username }}</h1>
+							<h2>{{ vm.user.role }}</h2>
+						</div>
+						<img src="images/loged-user.png" class="img-circle" alt="user" />
+						<i class="fa fa-caret-down"></i>
+					</a>
+					<ul class="dropdown-menu dropdown-menu-default">
+						<li>
+							<a ui-sref="profile">
+								<i class="icon-user"></i> My Profile
+							</a>
+						</li>
+						<li>
+							<a ui-sref="logout">
+								<i class="icon-user"></i> Log out
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- topbar ends -->
+
+</div>

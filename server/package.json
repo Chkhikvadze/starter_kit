@@ -1,0 +1,48 @@
+{
+	"name": "starter_kit",
+	"version": "0.0.1",
+	"private": true,
+	"description": "API server for Starter Kit",
+	"keywords": [],
+	"main": "./app/app.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Chkhikvadze/starter_kit"
+	},
+	"author": "Vobi Solutions",
+	"scripts": {
+		"debug": "DEBUG=api nodemon ./app/bin/www",
+		"start": "nodemon ./app/bin/www",
+		"test": "NODE_ENV=testing ./node_modules/mocha/bin/_mocha",
+		"mongo-migrate-run": "node ./node_modules/mongodb-migrate/bin/mongo-migrate.js --config ./app/config/index.js --dbPropName database -runmm ",
+		"mongo-migrate": "node ./node_modules/mongodb-migrate/bin/mongo-migrate.js -runmm",
+		"create_user": "node ./tools/create_user.js"
+	},
+	"dependencies": {
+		"bcrypt-nodejs": "0.0.3",
+		"bluebird": "3.0.5",
+		"body-parser": "1.14.1",
+		"chalk": "1.1.1",
+		"cors": "2.7.1",
+		"express": "4.13.3",
+		"helmet": "0.15.0",
+		"jsonwebtoken": "5.4.1",
+		"lodash": "3.10.1",
+		"mongodb-migrate": "git://github.com/interisti/mongo-migrate.git#a71aaccb005a04017a013f93633f4e60d6a7f34b",
+		"mongoose": "4.2.8",
+		"morgan": "1.6.1",
+		"ms": "0.7.1",
+		"serve-favicon": "2.3.0",
+		"yargs": "3.30.0"
+	},
+	"devDependencies": {
+		"chai": "3.4.1",
+		"debug": "2.2.0",
+		"istanbul": "0.4.1",
+		"mocha": "2.3.4",
+		"node-mocks-http": "1.5.1",
+		"nodemon": "1.8.1",
+		"sinon": "1.17.2",
+		"supertest": "1.1.0"
+	}
+}

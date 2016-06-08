@@ -1,0 +1,13 @@
+{
+	"watch": [
+		"*.*.*",
+		"*.*"
+	],
+	"ignore": [
+		"*.test.js",
+		"fixtures/*"
+	],
+	"env": {
+		"NODE_ENV": "development"
+	}
+}

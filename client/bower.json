@@ -1,0 +1,53 @@
+{
+    "name": "Starter Kit client",
+    "authors": [],
+    "description": "",
+    "main": "",
+    "moduleType": [],
+    "homepage": "",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "devDependencies": {
+        "angular-mocks": "1.4.8",
+        "sinon": "http://sinonjs.org/releases/sinon-1.17.2.js",
+        "bardjs": "0.1.8"
+    },
+    "dependencies": {
+        "jquery": "2.1.4",
+        "angular": "1.4.8",
+        "angular-sanitize": "1.4.8",
+        "bootstrap": "3.3.6",
+        "extras.angular.plus": "0.9.3",
+        "font-awesome": "4.5.0",
+        "angular-ui-router": "0.2.15",
+        "toastr": "2.1.2",
+        "angular-animate": "1.4.8",
+        "moment": "2.10.6",
+        "satellizer": "0.13.1",
+        "angular-resource": "1.4.8",
+        "angular-local-storage": "0.2.3",
+        "angular-smart-table": "2.1.5"
+    },
+    "resolutions": {
+        "angular": "1.4.8"
+    },
+    "overrides": {
+        "bootstrap": {
+            "main": [
+                "dist/css/bootstrap.css",
+                "dist/js/bootstrap.js"
+            ]
+        },
+        "font-awesome": {
+            "main": [
+                "css/font-awesome.css"
+            ]
+        }
+    }
+}

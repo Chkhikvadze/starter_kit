@@ -1,0 +1,52 @@
+[
+    {
+        "username": "nopassworduser",
+        "password": "",
+        "email": "nopass@gmail.com",
+        "profile": {
+            "firstName": "TestMan1",
+            "lastName": "NotTestMan1",
+            "avatar": "http://cloud.com/"
+        }
+    },
+    {
+        "username": "",
+        "password": "password332",
+        "email": "nouserpassword",
+        "profile": {
+            "firstName": "Name1",
+            "lastName": "LName1",
+            "avatar": "http://cloud.com/"
+        }
+    },
+    {
+        "username": "",
+        "password": "test3",
+        "email": "isitcorrectemail?",
+        "profile": {
+            "firstName": "Name2",
+            "lastName": "LName2",
+            "avatar": "http://cloud.com/mynakedtorsoinbathroom.jpg"
+        }
+    },
+    {
+        "username": "",
+        "password": "nousername",
+        "email": "nousername@mail.com",
+        "profile": {
+            "firstName": "Who needs username and password?",
+            "lastName": "LMan3",
+            "avatar": "http://cloud.com/"
+        }
+    },
+    {
+        "username": "",
+        "password": "",
+        "email": "",
+        "profile": {
+            "firstName": "Who needs username and password?",
+            "lastName": "LMan3",
+            "avatar": "http://cloud.com/"
+        }
+    }
+]

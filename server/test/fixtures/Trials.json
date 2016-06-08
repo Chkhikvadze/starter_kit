@@ -1,0 +1,32 @@
+[
+    {
+        "name": "trial 1",
+        "startDate": "2015-12-03",
+        "endDate": "2015-12-13",
+        "medication": {
+            "name": "med 1",
+            "dosage": {
+                "quantity": 1,
+                "regularity": "Every morning"
+            }
+        },
+        "administrators": [],
+        "patients": [],
+        "groups": []
+    },
+    {
+        "name": "trial 2",
+        "startDate": "2015-12-13",
+        "endDate": "2015-12-23",
+        "medication": {
+            "name": "med 2",
+            "dosage": {
+                "quantity": 2,
+                "regularity": "Every morning"
+            }
+        },
+        "administrators": [],
+        "patients": [],
+        "groups": []
+    }
+]

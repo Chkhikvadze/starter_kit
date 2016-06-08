@@ -1,0 +1,54 @@
+<div class="bottom-border"></div>
+<div class="container">
+	<div class="logo_outerdiv">
+		<div class="col-sm-5 text-right">
+			<img class="img-responsive" src="images/vobi_logo.png" />
+		</div>
+		<h1 class="col-sm-4 text-left">Forget Password</h1>
+	</div>
+	<section>
+		<form class="outside-login" ng-submit="vm.forget()" ng-hide="vm.requestSent">
+			<!--form-->
+			<div class="row">
+				<!--row-->
+				<div class="col-md-12 col-lg-12 col-sm-12">
+					<!--col-lg-12-->
+
+					<div class="form-group">
+						<!--form-group-->
+						<label class="control-label label_style">E-mail or Username</label>
+						<input type="text" id="email" class="form-control" ng-model="vm.user.username" required>
+					</div>
+                    
+                    <div class="alert alert-danger" role="alert" ng-show="vm.error">
+                        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                        <span class="sr-only">Error:</span> {{vm.error}}
+                    </div>
+                    
+					<button class="btn btn-color col-sm-12" type="submit">Reset</button>
+				</div>
+				<!--col-lg-12 ends-->
+			</div>
+			<!--row-ends-->
+		</form>
+		<!--form-->
+		
+		<h1 ng-show="vm.requestSent">Your request sent, you should receive email with further instructions.</h1>
+	</section>
+	<section>
+		<div class="col-sm-12 text-center">
+			
+		</div>
+		<div class="col-sm-12 text-center nav social_icon_img">
+			<a href="javascript:;"><img src="images/facebook01.png" alt="" /></a>
+			<a href="javascript:;"><img src="images/twitter01.png" alt="" /></a>
+			<a href="javascript:;"><img src="images/instagram01.png" alt="" /></a>
+			<a href="javascript:;"><img src="images/pintrest.png" alt="" /></a>
+		</div>
+		<div class="col-sm-12 text-center">
+			<ul class="footer_list">
+				<li>Copyright 2015 Vobi Inc. All rights reserved</li>
+			</ul>
+		</div>
+	</section>
+</div>
